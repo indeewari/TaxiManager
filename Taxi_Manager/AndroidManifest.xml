@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taxi.manager"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:apiKey="0guu10PDpmgTyU7DnJOhMN9fgP4ckBvLs78_BOw" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-library android:name="com.google.android.maps" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.CALL_PHONE"/>
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <uses-library android:name="com.google.android.maps" />
+          <uses-permission android:name="android.permission.INTERNET"/>
+          <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+        
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".TaxiManagerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.taxi.manager.TAXIMANAGERACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".GetPathDistance"
+            android:label="@string/app_name" 
+            android:apiKey="0guu10PDpmgTyU7DnJOhMN9fgP4ckBvLs78_BOw" >
+            <intent-filter>
+                <action android:name="com.taxi.manager.GETPATHDISTANCE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".DatabaseManager"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.taxi.manager.DATABASEMANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.taxi.manager.MAINMENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CabServiceDisplay" />
+        <activity android:name=".SelectedCabData" />
+         
+         <activity android:name=".MakeACall" />
+    </application>
+
+</manifest>

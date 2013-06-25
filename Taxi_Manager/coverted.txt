@@ -1,0 +1,92 @@
+vowelsUni[0]=\'\u0D8C\';	vowels[0]=\'oo\';    vowelModifiersUni[0]=\'\u0DD6\';\n    
+vowelsUni[1]=\'\u0D95\';    vowels[1]=\'o\\\\)\';    vowelModifiersUni[1]=\'\u0DDD\';\n    
+vowelsUni[2]=\'\u0D95\';    vowels[2]=\'oe\';    vowelModifiersUni[2]=\'\u0DDD\';\n    
+vowelsUni[3]=\'\u0D86\';    vowels[3]=\'aa\';    vowelModifiersUni[3]=\'\u0DCF\';\n    
+vowelsUni[4]=\'\u0D86\';    vowels[4]=\'a\\\\)\';    vowelModifiersUni[4]=\'\u0DCF\';\n    
+vowelsUni[5]=\'\u0D88\';    vowels[5]=\'Aa\';    vowelModifiersUni[5]=\'\u0DD1\';\n    
+vowelsUni[6]=\'\u0D88\';    vowels[6]=\'A\\\\)\';    vowelModifiersUni[6]=\'\u0DD1\';\n    
+vowelsUni[7]=\'\u0D88\';    vowels[7]=\'ae\';    vowelModifiersUni[7]=\'\u0DD1\';\n    
+vowelsUni[8]=\'\u0D8A\';    vowels[8]=\'ii\';    vowelModifiersUni[8]=\'\u0DD3\';\n    
+vowelsUni[9]=\'\u0D8A\';    vowels[9]=\'i\\\\)\';    vowelModifiersUni[9]=\'\u0DD3\';\n    
+vowelsUni[10]=\'\u0D8A\';    vowels[10]=\'ie\';    vowelModifiersUni[10]=\'\u0DD3\';\n    
+vowelsUni[11]=\'\u0D8A\';    vowels[11]=\'ee\';    vowelModifiersUni[11]=\'\u0DD3\';\n    
+vowelsUni[12]=\'\u0D92\';    vowels[12]=\'ea\';    vowelModifiersUni[12]=\'\u0DDA\';\n    
+vowelsUni[13]=\'\u0D92\';    vowels[13]=\'e\\\\)\';    vowelModifiersUni[13]=\'\u0DDA\';\n    
+vowelsUni[14]=\'\u0D92\';    vowels[14]=\'ei\';    vowelModifiersUni[14]=\'\u0DDA\';\n    
+vowelsUni[15]=\'\u0D8C\';    vowels[15]=\'uu\';    vowelModifiersUni[15]=\'\u0DD6\';\n    
+vowelsUni[16]=\'\u0D8C\';    vowels[16]=\'u\\\\)\';    vowelModifiersUni[16]=\'\u0DD6\';\n    
+vowelsUni[17]=\'\u0D96\';    vowels[17]=\'au\';    vowelModifiersUni[17]=\'\u0DDE\';\n    
+vowelsUni[18]=\'\u0D87\';    vowels[18]=\'/\\a\';    vowelModifiersUni[18]=\'\u0DD0\';\n    
+\n    
+vowelsUni[19]=\'\u0D85\';    vowels[19]=\'a\';    vowelModifiersUni[19]=\'\';\n    
+vowelsUni[20]=\'\u0D87\';    vowels[20]=\'A\';    vowelModifiersUni[20]=\'\u0DD0\';\n    
+vowelsUni[21]=\'\u0D89\';    vowels[21]=\'i\';    vowelModifiersUni[21]=\'\u0DD2\';\n    
+vowelsUni[22]=\'\u0D91\';    vowels[22]=\'e\';    vowelModifiersUni[22]=\'\u0DD9\';\n    
+vowelsUni[23]=\'\u0D8B\';    vowels[23]=\'u\';    vowelModifiersUni[23]=\'\u0DD4\';\n    
+vowelsUni[24]=\'\u0D94\';    vowels[24]=\'o\';    vowelModifiersUni[24]=\'\u0DDC\';\n    
+vowelsUni[25]=\'\u0D93\';    vowels[25]=\'I\';    vowelModifiersUni[25]=\'\u0DDB\';\n    
+nVowels=26;\n\n    specialConsonantsUni[0]=\'\u0D82\'; specialConsonants[0]=/\\\\n/g;
+\n   
+specialConsonantsUni[1]=\'\u0D83\'; specialConsonants[1]=/\\\\h/g;
+\n    
+specialConsonantsUni[2]=\'\u0D9E\'; specialConsonants[2]=/\\\\N/g;\n    
+specialConsonantsUni[3]=\'\u0D8D\'; specialConsonants[3]=/\\\\R/g;\n    
+
+//special characher Repaya\n    
+specialConsonantsUni[4]=\'\u0DBB\u0DCA\'+\'\u200D\'; specialConsonants[4]=/R/g;\n    
+specialConsonantsUni[5]=\'\u0DBB\u0DCA\'+\'\u200D\'; specialConsonants[5]=/\\\\r/g;\n    
+\n    
+consonantsUni[0]=\'\u0DAC\'; consonants[0]=\'nnd\';\n    
+consonantsUni[1]=\'\u0DB3\'; consonants[1]=\'nndh\';\n    
+consonantsUni[2]=\'\u0D9F\'; consonants[2]=\'nng\';\n    
+consonantsUni[3]=\'\u0DAE\'; consonants[3]=\'th\';\n    
+consonantsUni[4]=\'\u0DB0\'; consonants[4]=\'dh\';\n    
+consonantsUni[5]=\'\u0D9D\'; consonants[5]=\'gh\';\n    
+consonantsUni[6]=\'\u0DA1\'; consonants[6]=\'ch\';\n    
+consonantsUni[7]=\'\u0DB5\'; consonants[7]=\'ph\';\n    
+consonantsUni[8]=\'\u0DB7\'; consonants[8]=\'bh\';\n    
+consonantsUni[9]=\'\u0DA3\'; consonants[9]=\'jh\';\n    
+consonantsUni[10]=\'\u0DC2\'; consonants[10]=\'sh\';\n    
+consonantsUni[11]=\'\u0DA5\'; consonants[11]=\'GN\';\n    
+consonantsUni[12]=\'\u0DA4\'; consonants[12]=\'KN\';\n    
+consonantsUni[13]=\'\u0DC5\u0DD4\'; consonants[13]=\'Lu\';\n    
+consonantsUni[14]=\'\u0D9B\'; consonants[14]=\'kh\';\n    
+consonantsUni[15]=\'\u0DA8\'; consonants[15]=\'Th\';\n    
+consonantsUni[16]=\'\u0DAA\'; consonants[16]=\'Dh\';\n    \n    
+consonantsUni[17]=\'\u0DC1\'; consonants[17]=\'S\';\n    
+consonantsUni[18]=\'\u0DAF\'; consonants[18]=\'d\';\n    
+consonantsUni[19]=\'\u0DA0\'; consonants[19]=\'c\';\n    
+consonantsUni[20]=\'\u0DAD\'; consonants[20]=\'t\';\n    
+consonantsUni[21]=\'\u0DA7\'; consonants[21]=\'T\';\n    
+consonantsUni[22]=\'\u0D9A\'; consonants[22]=\'k\';\n    
+consonantsUni[23]=\'\u0DA9\'; consonants[23]=\'D\';\n    
+consonantsUni[24]=\'\u0DB1\'; consonants[24]=\'n\';\n    
+consonantsUni[25]=\'\u0DB4\'; consonants[25]=\'p\';\n    
+consonantsUni[26]=\'\u0DB6\'; consonants[26]=\'b\';\n    
+consonantsUni[27]=\'\u0DB8\'; consonants[27]=\'m\';\n    
+consonantsUni[28]=\'\u200D\u0DBA\'; consonants[28]=\'\\\\\' + \'y\';\n    
+consonantsUni[29]=\'\u200D\u0DBA\'; consonants[29]=\'Y\';\n    
+consonantsUni[30]=\'\u0DBA\'; consonants[30]=\'y\';\n    
+consonantsUni[31]=\'\u0DA2\'; consonants[31]=\'j\';\n    
+consonantsUni[32]=\'\u0DBD\'; consonants[32]=\'l\';\n    
+consonantsUni[33]=\'\u0DC0\'; consonants[33]=\'v\';\n    
+consonantsUni[34]=\'\u0DC0\'; consonants[34]=\'w\';\n    
+consonantsUni[35]=\'\u0DC3\'; consonants[35]=\'s\';\n    
+consonantsUni[36]=\'\u0DC4\'; consonants[36]=\'h\';\n    
+consonantsUni[37]=\'\u0DAB\'; consonants[37]=\'N\';\n    
+consonantsUni[38]=\'\u0DC5\'; consonants[38]=\'L\';\n    
+consonantsUni[39]=\'\u0D9B\'; consonants[39]=\'K\';\n    
+consonantsUni[40]=\'\u0D9D\'; consonants[40]=\'G\';\n    
+consonantsUni[41]=\'\u0DB5\'; consonants[41]=\'P\';\n    
+consonantsUni[42]=\'\u0DB9\'; consonants[42]=\'B\';\n    
+
+consonantsUni[43]=\'\u0DC6\'; consonants[43]=\'f\';\n    
+consonantsUni[44]=\'\u0D9C\'; consonants[44]=\'g\';\n  
+  
+//lastconvertUTF82Char: error1 BE!cause we need to ommit this inaling with Rakaransha\n    
+
+consonantsUni[45]=\'\u0DBB\'; consonants[45]=\'r\'; \n    \n    
+
+specialCharUni[0]=\'\u0DF2\'; specialChar[0]=\'ruu\';\n    
+specialCharUni[1]=\'\u0DD8\'; specialChar[1]=\'ru\';\n    
+//specialCharUni[2]=\'\u0DCA\u200D\u0DBB\'; specialChar[2]=\'ra\'
